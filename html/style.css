@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Playfair+Display:wght@500&display=swap');
+body{
+    background-color: aliceblue;
+}
+*{
+    margin: 2;
+    padding: 0;
+
+}
+nav{
+    font-family: "Playfair",sans-serif;
+    color:  white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 89;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.brand img{
+    width: 50px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2;
+
+}
+.container{
+    min-height: 80vh; 
+    background-color: black;
+    color: aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-top: 20px , auto;
+    border-radius: 30px;
+    width: auto;
+    padding: 40px;
+    background-image:url(music-speaker-with-blue-sound-notes-background_1017-36709.jpg);
+    
+}
+.bottom{
+      position: sticky;
+      height: 80px;
+      background-color: black;
+      color: white;
+      bottom:0 ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      size: 30px; 
+      border-radius: 10px;
+
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    border-radius: 20px;}
+
+.songItems{
+    height: 50px;
+    display:flex ;
+    flex-direction:row;
+    background-color: white;
+    color: rgb(15, 14, 14);
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItems img{
+   width: 30px;
+   margin: 23px ;
+}
+
+.icons{
+    margin-top: 20;
+    }

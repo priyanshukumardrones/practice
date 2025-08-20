@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+  Width:100%;
+  background:url(.html/iconfinder-cloudserver-4417106_116641.png);
+  background-size: cover;
+  background-position: center;
+ height: 109vh;
+}
